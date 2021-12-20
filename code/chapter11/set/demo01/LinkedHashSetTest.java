@@ -1,0 +1,20 @@
+import java.util.LinkedHashSet;
+import java.util.Set;
+
+public class LinkedHashSetTest {
+    public static void main(String[] args) {
+        Set<String> set = new LinkedHashSet<>();
+        for (int i = 10; i < 30; i++) {
+            set.add(String.valueOf(i));
+            System.out.print(" " + i);
+        }
+        System.out.println();
+
+        for (String str : set) {
+            System.out.print(" " +  str);
+        }
+        System.out.println();
+    }
+    
+}
+
